@@ -1,0 +1,38 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    width: 40vw;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    background:rgb(6, 135, 90);
+    color: #fff;
+}
+
+.answer{
+    width: 40vw;
+    padding: 0 20px;
+    display: flex;
+    background-color: rgb(25, 202, 96);
+    color: #fff;
+    padding: 20px 20px;
+}
+
+.title > span {
+    font-size: larger;
+    font-weight: 900;
+}
+
+.enable{
+    border: none;
+    padding: 20px 10px;
+    justify-content: center;
+    margin-top: 2rem;
+    background:rgb(6, 135, 90);
+    color: #fff;
+}

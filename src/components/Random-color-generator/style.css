@@ -1,0 +1,11 @@
+.btns{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    flex-grow: 1;
+}
+button{
+    margin: 10px 20px;
+    padding: 20px 20px;
+    cursor: pointer;
+}
