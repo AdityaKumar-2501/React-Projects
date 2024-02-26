@@ -40,26 +40,47 @@ function ImageSlider({ url, page = 1, limit = 5 }) {
     return <div>Error occured {errMessage}</div>;
   }
 
+  function handlePrevious() {
+    setCurrentSlide(currentSlide == 0 ? images.length - 1 : currentSlide - 1);
+  }
+
+  function handleNext() {
+    setCurrentSlide(currentSlide == images.length - 1 ? 0 : currentSlide + 1);
+  }
+
   return (
     <div className="container">
-      <FaArrowCircleLeft className="arrow arrow-left" />
+      <FaArrowCircleLeft
+        className="arrow arrow-left"
+        onClick={() => handlePrevious()}
+      />
       {images && images.length
-        ? images.map((image) => (
+        ? images.map((image, index) => (
             <img
               key={image.id}
               src={image.download_url}
               alt={image.download_url}
-              className="current-image"
+              className={currentSlide == index ? "current-image" : "hide-image"}
             />
           ))
         : null}
-      <FaArrowCircleRight className="arrow arrow-right" />
+      <FaArrowCircleRight
+        className="arrow arrow-right"
+        onClick={() => handleNext()}
+      />
       <span className="circle-indicator">
         {images && images.length
           ? images.map((_, index) => (
-              <button key={index} className="current-indicator">
-              </button>
-          ))
+              <button
+                key={index}
+                className={
+                  currentSlide == index
+                    ? "current-indicator"
+                    : "current-indicator inactive-indicator"
+                }
+                onClick={() => setCurrentSlide(index)}
+              ></button>
+            ))
           : null}
       </span>
     </div>

@@ -3,8 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    height: 400px;
+    width: 600px;
+    height: 500px;
 }
 
 .current-image{
@@ -37,7 +37,7 @@
 }
 
 .current-indicator{
-    background-color: #fff;
+    background-color: grey;
     width: 15px;
     height: 15px;
     border: none;
@@ -45,4 +45,12 @@
     outline: none;
     margin: 0 0.2rem;
     cursor: pointer;
+}
+
+.hide-image{
+    display: none;
+}
+
+.inactive-indicator{
+    background-color: white;
 }
