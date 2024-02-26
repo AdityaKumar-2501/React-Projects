@@ -12,6 +12,7 @@
     margin-top: 2rem;
     background:rgb(6, 135, 90);
     color: #fff;
+    cursor: pointer;
 }
 
 .answer{
