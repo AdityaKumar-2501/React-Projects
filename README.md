@@ -1,8 +1,23 @@
-# React + Vite
+<h1 align="center" id="title">React Projects</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p id="description">In this repository I made some mini projects of react to learn it while making the projects.</p>
 
-Currently, two official plugins are available:
+<h2>🛠️ Installation Steps:</h2>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p>1. Clone git repo</p>
+
+```
+git clone https://github.com/AdityaKumar-2501/React-Projects.git
+```
+
+<p>2. Install the dependencies</p>
+
+```
+npm i
+```
+
+<p>3. Start the server</p>
+
+```
+npm run dev
+```
