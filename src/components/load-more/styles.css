@@ -1,16 +1,16 @@
-.load-data-container{
+.load-data-container {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
 }
 
-.product-card{
+.product-card {
     display: grid;
-    grid-template-columns: repeat(4 ,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
-.product-item{
+.product-item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,11 +19,11 @@
     border: solid rgb(86, 54, 100);
 }
 
-.product-item img{
+.product-item img {
     width: 200px;
     height: 200px;
 }
 
-.btn{
+.btn {
     max-width: fit-content;
 }

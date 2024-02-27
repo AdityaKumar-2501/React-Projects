@@ -1,0 +1,11 @@
+.tree-view-container {
+    min-height: 100vh;
+    max-width: 350px;
+    background-color: rgb(15, 81, 135);
+    margin-top: -16px;
+    color: #fff;
+}
+
+.list-container {
+    list-style: none;
+}

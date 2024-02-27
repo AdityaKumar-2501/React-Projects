@@ -46,8 +46,12 @@ export const menus = [
               to: "register",
               children : [
                   {
-                      label : 'Random data',
+                      label : 'Using Email',
                       to : ''
+                  },
+                  {
+                    label : 'Using Google Account',
+                    to : '/'
                   }
               ]
             },
