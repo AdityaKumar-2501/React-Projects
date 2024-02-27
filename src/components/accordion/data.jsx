@@ -1,7 +1,7 @@
 const data = [
     {
         id: 1,
-        question: 'What do you want to',
+        question: 'How to access code ?',
         answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat quam nec mauris ullamcorper, ac tincidunt turpis molestie. Sed lacinia.'
     },
     {
@@ -11,17 +11,17 @@ const data = [
     },
     {
         id: 3,
-        question: 'Who are you :> ?',
+        question: 'How it help you?',
         answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat quam nec mauris ullamcorper, ac tincidunt turpis molestie. Sed lacinia.'
     },
     {
         id: 4,
-        question: 'What want to :.?',
+        question: 'Why use this ?',
         answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat quam nec mauris ullamcorper, ac tincidunt turpis molestie. Sed lacinia.'
     },
     {
         id: 5,
-        question: 'What do you want sachhi main :o !',
+        question: 'How to lean new things?',
         answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat quam nec mauris ullamcorper, ac tincidunt turpis molestie. Sed lacinia.'
     },
 ]

@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       {/* Accordian component */}
-      {/* <Accordion /> */}
+      <Accordion />
 
       {/* Random color genrator component */}
       {/* <Random /> */}
@@ -26,7 +26,7 @@ function App() {
       {/* <LoadMoreData /> */}
 
       {/* Tree view Component */}
-      <TreeView menus={menus} />
+      {/* <TreeView menus={menus} /> */}
     </div>
   );
 }
