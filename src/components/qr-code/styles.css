@@ -1,0 +1,17 @@
+.qrcode {
+    height: 250px;
+    width: 250px;
+    margin: 100px auto;
+}
+
+.btn {
+    height: fit-content;
+    border-radius: 20px;
+}
+
+.input {
+    width: 200px;
+    height: 50px;
+    padding: 0 10px;
+    border-radius: 10px;
+}

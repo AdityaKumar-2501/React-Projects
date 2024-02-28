@@ -6,12 +6,13 @@ import Rating from "./components/star-rating";
 import LoadMoreData from "./components/load-more/index";
 import TreeView from "./components/tree-view/index";
 import menus from "./components/tree-view/data";
+import QRcodeGenerator from "./components/qr-code";
 
 function App() {
   return (
     <div className="App">
       {/* Accordian component */}
-      <Accordion />
+      {/* <Accordion /> */}
 
       {/* Random color genrator component */}
       {/* <Random /> */}
@@ -27,6 +28,9 @@ function App() {
 
       {/* Tree view Component */}
       {/* <TreeView menus={menus} /> */}
+
+      {/* QRCode Generator */}
+      <QRcodeGenerator />
     </div>
   );
 }
