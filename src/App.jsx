@@ -8,35 +8,39 @@ import TreeView from "./components/tree-view/index";
 import menus from "./components/tree-view/data";
 import QRcodeGenerator from "./components/qr-code";
 import LightDarkMode from "./components/light-dark-mode";
+import ScrollIndicator from "./components/scroll-indicator";
 
 function App() {
-  return (
-    <div className="App">
-      {/* Accordian component */}
-      {/* <Accordion /> */}
+    return (
+        <div className="App">
+            {/* Accordian component */}
+            {/* <Accordion /> */}
 
-      {/* Random color genrator component */}
-      {/* <Random /> */}
+            {/* Random color genrator component */}
+            {/* <Random /> */}
 
-      {/* Star Rating Component */}
-      {/* <Rating noOfStars={10} /> */}
+            {/* Star Rating Component */}
+            {/* <Rating noOfStars={10} /> */}
 
-      {/* Image Slider Component */}
-      {/* <ImageSlider url={"https://picsum.photos/v2/list"} page={1} limit={10} /> */}
+            {/* Image Slider Component */}
+            {/* <ImageSlider url={"https://picsum.photos/v2/list"} page={1} limit={10} /> */}
 
-      {/* Load More Products Components */}
-      {/* <LoadMoreData /> */}
+            {/* Load More Products Components */}
+            {/* <LoadMoreData /> */}
 
-      {/* Tree view Component */}
-      {/* <TreeView menus={menus} /> */}
+            {/* Tree view Component */}
+            {/* <TreeView menus={menus} /> */}
 
-      {/* QRCode Generator */}
-      {/* <QRcodeGenerator /> */}
+            {/* QRCode Generator */}
+            {/* <QRcodeGenerator /> */}
 
-      {/* light dark mode */}
-      <LightDarkMode />
-    </div>
-  );
+            {/* light dark mode */}
+            {/* <LightDarkMode /> */}
+
+            {/* Scroll Indicator */}
+            <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+        </div>
+    );
 }
 
 export default App;
