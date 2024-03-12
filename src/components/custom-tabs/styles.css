@@ -1,0 +1,35 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    flex-direction: column;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 0;
+}
+
+.inactive {
+    background-color: #b32929;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #60b329;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.content {
+    color: rgb(60, 130, 60)
+}
